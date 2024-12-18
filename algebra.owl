@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/naman/ontologies/2024/Ai_tutoring_for_algerbra"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/naman/ontologies/2024/Ai_tutoring_for_algerbra">
+    <Prefix name="" IRI="http://www.semanticweb.org/naman/ontologies/2024/Ai_tutoring_for_algerbra/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Algebra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlgebraicConcepts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlgebraicTopics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssessmentMethods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coefficients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Factorization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GraphEquations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GraphingTasks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inequalities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteractiveExercises"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningResources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LinearEquations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultipleChoiceQuestions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polynomials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblemTypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuadraticEquations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimplifyExpressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SolveEquations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StepByStepProblems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrueFalseQuestions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tutorials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Variables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Videos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worksheets"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Belong_to_topic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assess_concept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#explain_concept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_topic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Difficulty_level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#resourse_type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlgebraicTopics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coefficent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Expressions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Functions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inequalities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Interactive_Exercises"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LinearEquation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PDF_Worksheets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polynomials"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuadraticEquations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simplify_experssion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Solve_equation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Variable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Video_Tutorials"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#graphic_task"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#multiple_choise_question"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AlgebraicConcepts"/>
+        <Class IRI="#Algebra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlgebraicTopics"/>
+        <Class IRI="#Algebra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssessmentMethods"/>
+        <Class IRI="#Algebra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coefficients"/>
+        <Class IRI="#AlgebraicConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expressions"/>
+        <Class IRI="#AlgebraicConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Factorization"/>
+        <Class IRI="#ProblemTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functions"/>
+        <Class IRI="#AlgebraicConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GraphEquations"/>
+        <Class IRI="#ProblemTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GraphingTasks"/>
+        <Class IRI="#AssessmentMethods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inequalities"/>
+        <Class IRI="#AlgebraicTopics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteractiveExercises"/>
+        <Class IRI="#LearningResources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearningResources"/>
+        <Class IRI="#Algebra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LinearEquations"/>
+        <Class IRI="#AlgebraicTopics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultipleChoiceQuestions"/>
+        <Class IRI="#AssessmentMethods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polynomials"/>
+        <Class IRI="#AlgebraicTopics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblemTypes"/>
+        <Class IRI="#Algebra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuadraticEquations"/>
+        <Class IRI="#AlgebraicTopics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimplifyExpressions"/>
+        <Class IRI="#ProblemTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SolveEquations"/>
+        <Class IRI="#ProblemTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StepByStepProblems"/>
+        <Class IRI="#AssessmentMethods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrueFalseQuestions"/>
+        <Class IRI="#AssessmentMethods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tutorials"/>
+        <Class IRI="#LearningResources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Variables"/>
+        <Class IRI="#AlgebraicConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Videos"/>
+        <Class IRI="#LearningResources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worksheets"/>
+        <Class IRI="#LearningResources"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#AlgebraicTopics"/>
+        <NamedIndividual IRI="#AlgebraicTopics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AlgebraicConcepts"/>
+        <NamedIndividual IRI="#Coefficent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AlgebraicConcepts"/>
+        <NamedIndividual IRI="#Expressions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AlgebraicConcepts"/>
+        <NamedIndividual IRI="#Functions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AlgebraicTopics"/>
+        <NamedIndividual IRI="#Inequalities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningResources"/>
+        <NamedIndividual IRI="#Interactive_Exercises"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AlgebraicTopics"/>
+        <NamedIndividual IRI="#LinearEquation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningResources"/>
+        <NamedIndividual IRI="#PDF_Worksheets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AlgebraicTopics"/>
+        <NamedIndividual IRI="#Polynomials"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AlgebraicTopics"/>
+        <NamedIndividual IRI="#QuadraticEquations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProblemTypes"/>
+        <NamedIndividual IRI="#Simplify_experssion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProblemTypes"/>
+        <NamedIndividual IRI="#Solve_equation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AlgebraicConcepts"/>
+        <NamedIndividual IRI="#Variable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningResources"/>
+        <NamedIndividual IRI="#Video_Tutorials"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AssessmentMethods"/>
+        <NamedIndividual IRI="#graphic_task"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AssessmentMethods"/>
+        <NamedIndividual IRI="#multiple_choise_question"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belong_to_topic"/>
+        <NamedIndividual IRI="#Coefficent"/>
+        <NamedIndividual IRI="#LinearEquation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belong_to_topic"/>
+        <NamedIndividual IRI="#LinearEquation"/>
+        <NamedIndividual IRI="#AlgebraicTopics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#explain_concept"/>
+        <NamedIndividual IRI="#LinearEquation"/>
+        <NamedIndividual IRI="#Variable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_topic"/>
+        <NamedIndividual IRI="#LinearEquation"/>
+        <NamedIndividual IRI="#Solve_equation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_topic"/>
+        <NamedIndividual IRI="#PDF_Worksheets"/>
+        <NamedIndividual IRI="#Polynomials"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belong_to_topic"/>
+        <NamedIndividual IRI="#Polynomials"/>
+        <NamedIndividual IRI="#AlgebraicTopics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assess_concept"/>
+        <NamedIndividual IRI="#Polynomials"/>
+        <NamedIndividual IRI="#PDF_Worksheets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belong_to_topic"/>
+        <NamedIndividual IRI="#QuadraticEquations"/>
+        <NamedIndividual IRI="#AlgebraicTopics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_topic"/>
+        <NamedIndividual IRI="#QuadraticEquations"/>
+        <NamedIndividual IRI="#Simplify_experssion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belong_to_topic"/>
+        <NamedIndividual IRI="#Simplify_experssion"/>
+        <NamedIndividual IRI="#Polynomials"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belong_to_topic"/>
+        <NamedIndividual IRI="#Solve_equation"/>
+        <NamedIndividual IRI="#LinearEquation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belong_to_topic"/>
+        <NamedIndividual IRI="#Variable"/>
+        <NamedIndividual IRI="#Inequalities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_topic"/>
+        <NamedIndividual IRI="#Video_Tutorials"/>
+        <NamedIndividual IRI="#LinearEquation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_topic"/>
+        <NamedIndividual IRI="#graphic_task"/>
+        <NamedIndividual IRI="#QuadraticEquations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_topic"/>
+        <NamedIndividual IRI="#multiple_choise_question"/>
+        <NamedIndividual IRI="#LinearEquation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_topic"/>
+        <NamedIndividual IRI="#multiple_choise_question"/>
+        <NamedIndividual IRI="#QuadraticEquations"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty_level"/>
+        <NamedIndividual IRI="#Coefficent"/>
+        <Literal>medium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty_level"/>
+        <NamedIndividual IRI="#LinearEquation"/>
+        <Literal>Medium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resourse_type"/>
+        <NamedIndividual IRI="#LinearEquation"/>
+        <Literal>video</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resourse_type"/>
+        <NamedIndividual IRI="#PDF_Worksheets"/>
+        <Literal>pdf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty_level"/>
+        <NamedIndividual IRI="#Polynomials"/>
+        <Literal>medium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resourse_type"/>
+        <NamedIndividual IRI="#Polynomials"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty_level"/>
+        <NamedIndividual IRI="#QuadraticEquations"/>
+        <Literal>High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resourse_type"/>
+        <NamedIndividual IRI="#QuadraticEquations"/>
+        <Literal>Interactive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty_level"/>
+        <NamedIndividual IRI="#Simplify_experssion"/>
+        <Literal>medium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty_level"/>
+        <NamedIndividual IRI="#Solve_equation"/>
+        <Literal>medium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty_level"/>
+        <NamedIndividual IRI="#Variable"/>
+        <Literal>Low</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resourse_type"/>
+        <NamedIndividual IRI="#Video_Tutorials"/>
+        <Literal>video</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty_level"/>
+        <NamedIndividual IRI="#graphic_task"/>
+        <Literal>High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Difficulty_level"/>
+        <NamedIndividual IRI="#multiple_choise_question"/>
+        <Literal>medium</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Belong_to_topic"/>
+        <Class IRI="#ProblemTypes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#assess_concept"/>
+        <Class IRI="#AssessmentMethods"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#explain_concept"/>
+        <Class IRI="#LearningResources"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_topic"/>
+        <Class IRI="#Algebra"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Belong_to_topic"/>
+        <Class IRI="#AlgebraicTopics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#assess_concept"/>
+        <Class IRI="#AlgebraicConcepts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#explain_concept"/>
+        <Class IRI="#AlgebraicConcepts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_topic"/>
+        <Class IRI="#AlgebraicTopics"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Difficulty_level"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#resourse_type"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Difficulty_level"/>
+        <Class IRI="#ProblemTypes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#resourse_type"/>
+        <Class IRI="#LearningResources"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Difficulty_level"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#resourse_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Belong_to_topic</IRI>
+        <Literal>Associates types of problems with relevant topics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#assess_concept</IRI>
+        <Literal>Indicates which assessment method evaluates a specific concept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#explain_concept</IRI>
+        <Literal>Specifies which learning resource explains a particular concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_topic</IRI>
+        <Literal>Links the domain of Algebra to specific topics</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
